@@ -90,3 +90,140 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: want_room
+  examples: |
+    - I want to book a room
+    - I want a room
+    - Hey, need to book a room
+    - Could you help me book a room
+    - Help me book a room
+
+- intent: simple_room
+  examples: |
+    - Simple
+
+- intent: deluxe_room
+  examples: |
+    - Deluxe
+
+- intent: number_of_rooms
+  examples: |
+    - [2](nrooms) rooms
+    - [1](nrooms) room
+    - [3](nrooms)
+    - I want [4](nrooms) rooms
+    - I think [5](nrooms) rooms
+
+- intent: want_n_rooms
+  examples: |
+    - I want to book [2](nrooms) rooms
+    - Hey, want to book [5](nrooms) rooms
+    - How do I book [3](nrooms) rooms?
+    - Need [6](nrooms) rooms
+
+- intent: clean_time
+  examples: |
+    - Could you send someone after [1](time) hour?
+    - Could you send someone after [2](time) hours?
+    - Could you send someone after [3](time) hours?
+    - Could you send someone after [4](time) hours?
+    - Could you send someone after [5](time) hours?
+    - In [6](time) hours?
+    - Please send after [7](time) hours
+
+- intent: room_cleaned_time
+  examples: |
+    - I want to have my room cleaned in [1](time) hour.
+    - I want room cleaning service after [3](time) hours.
+    - Room cleaning in [5] hours please
+    - I want my room clean after [4](time) hours.
+
+- intent: room_cleaned_now
+  examples: |
+    - I want to have my room cleaned now
+    - Please get my room cleaned as soon as possible
+    - Get my room cleaned right now
+    - Need room cleaning as soon as possible
+
+- intent: room_cleaned
+  examples: |
+    - I want to have my room cleaned
+    - Need to get my room cleaned
+    - Can you please get my room cleaned
+    - Clean my room
+    - Room needs to be cleaned
+
+- intent: clean_now
+  examples: |
+    - Send someone now
+    - Can you send someone right now?
+    - Please send someone now
+    - Send someone right now
+
+- intent: check_in_time
+  examples: |
+    - What are your check-in timings?
+    - check-in timings?
+    - When can I come?
+    - When can I enter my room?
+    - check-in time?
+    - check-in time
+    - check-in timings need info
+    - check in time please
+
+- intent: check_out_time
+  examples: |
+    - What are your check-out timings?
+    - check-out timings?
+    - When do I leave?
+    - When can am I supposed to leave?
+    - check-out time?
+    - check-out time
+    - check-out timings need info
+    - check out time please
+
+- intent: cancel_reservation
+  examples: |
+    - How do I cancel a reservation?
+    - How to cancel?
+    - How can I cancel my reservation?
+    - How am I supposed to cancel
+
+- intent: cancellation_policy
+  examples: |
+    - What is your cancellation policy?
+    - What happens if I cancel?
+    - Tell me more about the cancellation policy
+
+- intent: rest
+  examples: |
+    - Does the hotel have a restaurant?
+    - Where is the restaurant?
+    - Is there a restaurant?
+    - do you have a restaurant
+
+- intent: breakfast_availability
+  examples: |
+    - does the hotel offer breakfast
+    - do you give breakfast
+    - what about breakfast
+    - do you give breakfast
+    - is there breakfast at the hotel
+
+- intent: breakfast_timings
+  examples: |
+    - what are the breakfast timings?
+    - timings for breakfast?
+    - what time is the breakfast available
+    - when will breakfast be available
+    - when can I eat breakfast
+
+- intent: restaurant_timings
+  examples: |
+    - What are the timings of your restaurant?
+    - restaurant timings?
+    - what time does the restaurant open?
+    - when will the restaurant open
+    - timings for the restaurant
+    - when does the restaurant close
