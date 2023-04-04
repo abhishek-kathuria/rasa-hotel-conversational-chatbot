@@ -1,4 +1,4 @@
-# rasa-hotel-chatbot-nov-2020
+# rasa hotel conversational chatbot
 
 # Objective - 
 To build a simple chatbot for a hotel. </br>
