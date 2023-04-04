@@ -1,4 +1,4 @@
-# rasa hotel conversational chatbot
+# Hotel Conversational Chatbot
 
 # Objective
 To build a simple chatbot for a hotel. </br>
